@@ -67,3 +67,51 @@ header .action-buttons-section img {
     padding: 10px;
 }
 
+
+.body-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+.hero-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.hero-section .left-section {
+    border: 1px solid white;
+}
+
+.hero-section .left-section .upper .sub-bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.hero-section .left-section .upper button {
+    background-color: #41525E;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 47%;
+    cursor: pointer;
+}
+
+.hero-section .left-section .upper button:hover {
+    background-color: #2957ffdf;
+}
+
+
+.hero
+
+.hero-section .right-section {
+    border: 1px solid white;
+}
+
