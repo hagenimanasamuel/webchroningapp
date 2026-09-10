@@ -14,7 +14,7 @@ header {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -23,6 +23,7 @@ header .logo-section {
     flex-direction: row;
     align-items: center;
     gap: 30px;
+    font-size: 13px;
 }
 
 header .navs-section {
@@ -48,7 +49,7 @@ header .navs-section ul li {
 header .action-buttons-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
 }
 
 header .action-buttons-section button {
@@ -59,5 +60,10 @@ header .action-buttons-section button {
     font-size: 16px;
     font-weight: 500;
     color: white;
+}
+
+header .action-buttons-section img {
+    cursor: pointer;
+    padding: 10px;
 }
 
