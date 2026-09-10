@@ -108,10 +108,98 @@ header .action-buttons-section img {
     background-color: #2957ffdf;
 }
 
+.hero-section .left-section .middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
 
-.hero
+
+.hero-section .left-section .middle div {
+    position: relative;
+}
+
+.hero-section .left-section .middle div .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    padding: 10px;
+    max-width: 400px;
+}
+
+.hero-section .left-section .middle div .info h2 {
+    width: fit-content;
+}
+.hero-section .left-section .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.hero-section .left-section .bottom div {
+    position: relative;
+}
+
+.hero-section .left-section .bottom div .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    padding: 10px;
+    max-width: 400px;
+}
+
+.hero-section .left-section .bottom div .info h2 {
+    width: fit-content;
+}
 
 .hero-section .right-section {
     border: 1px solid white;
 }
 
+
+.hero-section .right-section .upper {
+    position: relative;
+    display: inline-block;
+}
+
+.hero-section .right-section .upper .info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.hero-section .right-section .upper .info h2 {
+    width: auto;
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+.hero-section .right-section .upper button {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hero-section .right-section .upper button:hover {
+    background-color: #2957ffdf;
+    padding: 10px 20px;
+}
