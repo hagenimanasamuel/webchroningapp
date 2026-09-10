@@ -87,7 +87,7 @@ header .action-buttons-section img {
 }
 
 .hero-section .left-section {
-    border: 1px solid white;
+    
 }
 
 .hero-section .left-section .upper .sub-bottom{
@@ -159,9 +159,6 @@ header .action-buttons-section img {
     width: fit-content;
 }
 
-.hero-section .right-section {
-    border: 1px solid white;
-}
 
 
 .hero-section .right-section .upper {
@@ -202,4 +199,73 @@ header .action-buttons-section img {
 .hero-section .right-section .upper button:hover {
     background-color: #2957ffdf;
     padding: 10px 20px;
+}
+
+.hero-section .right-section .bottom .subscribe {
+    background-color: #41525ef3;
+    padding: 30px;
+}
+
+.hero-section .right-section .bottom .subscribe .input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+.hero-section .right-section .bottom .subscribe .input input {
+    background: white;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    flex: 1;
+    padding: 15px 10px;
+}
+
+.hero-section .right-section .bottom .subscribe .input img {
+    cursor: pointer;
+    background-color: #4369f5;
+    height: 30px;   
+    padding: 10px;
+    margin-top: 2px;
+}
+
+.hero-section .right-section .bottom .subscribe p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.hero-section .right-section .bottom .subscribe p::before,
+.hero-section .right-section .bottom .subscribe p::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: white;
+}
+
+.hero-section .right-section .bottom .subscribe .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.hero-section .right-section .bottom .subscribe .social div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    flex: 1;
+    cursor: pointer;
+    text-align: center;
 }
